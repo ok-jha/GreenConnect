@@ -21,11 +21,11 @@ public class User {
     @Column(nullable = false)
     private String password;
 
-    @OneToMany(mappedBy = "owner", cascade = CascadeType.ALL, orphanRemoval = true)
-    private List<Item> items;
-
-    @OneToMany(mappedBy = "consumer", cascade = CascadeType.ALL, orphanRemoval = true)
-    private List<Request> requests;
+//    @OneToMany(mappedBy = "owner", cascade = CascadeType.ALL, orphanRemoval = true)
+//    private List<Item> items;
+//
+//    @OneToMany(mappedBy = "consumer", cascade = CascadeType.ALL, orphanRemoval = true)
+//    private List<Request> requests;
 
     @Column(nullable = false, length = 15)
     private String phoneNumber;
