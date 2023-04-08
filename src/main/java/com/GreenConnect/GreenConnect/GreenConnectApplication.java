@@ -9,5 +9,5 @@ public class GreenConnectApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(GreenConnectApplication.class, args);
 	}
-
+		
 }
